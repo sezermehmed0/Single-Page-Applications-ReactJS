@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "imageUrl": " https://picsum.photos/200/300?random=0.3583441491593802",
+      "name": "sss",
+      "email": "ssss@abv.bg",
+      "phone": "2222222222",
+      "password": "1231230",
+      "isVip": false,
+      "money": "99999999999999999997.22",
+      "isActive": true,
+      "isAdmin": false,
+      "id": 1
+    },
+    {
+      "imageUrl": " https://picsum.photos/200/300?random=0.3583441491593802",
+      "name": "sss1",
+      "email": "ssss1@abv.bg",
+      "phone": "2222222221",
+      "password": "1231230",
+      "isVip": false,
+      "money": "9999999999999999998",
+      "isActive": true,
+      "isAdmin": false,
+      "id": 2
+    },
+    {
+      "imageUrl": " https://picsum.photos/200/300?random=0.54177668322355",
+      "name": "sss2",
+      "email": "sss2@abv.bg",
+      "phone": "2221515",
+      "password": "123123",
+      "isVip": false,
+      "money": 15205515143.78,
+      "isActive": true,
+      "isAdmin": false,
+      "id": 3
+    }
+  ],
+  "cars": [
+    {
+      "isActive": true,
+      "imageUrl": "https://a.d-cd.net/1415ea9s-960.jpg",
+      "brand": "Mazda",
+      "model": "F323",
+      "constructionYear": "2000-11-10",
+      "type": "",
+      "fuelType": "",
+      "seatsCount": "5",
+      "pricePerDay": "50",
+      "count": "35",
+      "ownerId": 1,
+      "id": "8aoTCdZ"
+    },
+    {
+      "isActive": true,
+      "imageUrl": "https://can01.anibis.ch/Vetture-particolari-1-18-Opel-Astra-GSI-Umbau-Tuning/?1024x768/3/60/anibis/104/815/045/oX5X93xhNECz_tujrJtsbQ_1.jpg",
+      "brand": "Opel",
+      "model": "Astra",
+      "constructionYear": "1996-03-31",
+      "type": "",
+      "fuelType": "",
+      "seatsCount": "5",
+      "pricePerDay": "48",
+      "count": "68",
+      "ownerId": 1,
+      "id": "DE-DzZs"
+    },
+    {
+      "isActive": true,
+      "imageUrl": "https://autobild.bg/wp-content/uploads/2020/08/2004_volkswagen_r32_1596586222f353ebc801IMG_7049.jpg",
+      "brand": "VW",
+      "model": "Golfu (1.9 TDI)",
+      "constructionYear": "1999-11-11",
+      "type": "",
+      "fuelType": "Diesel",
+      "seatsCount": "5",
+      "pricePerDay": "1.9",
+      "count": 188,
+      "ownerId": 1,
+      "id": "VazQotL",
+      "carInfo": "VW - Golfu (1.9 TDI)"
+    }
+  ],
+  "rentals": [
+    {
+      "userId": 3,
+      "carId": "VazQotL",
+      "startDate": "2022-12-12",
+      "endDate": "2022-12-15",
+      "status": "In use",
+      "totalCost": 7.22,
+      "id": 1
+    }
+  ]
+}
